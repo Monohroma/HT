@@ -169,9 +169,9 @@ public class task3 {
     }
 
     public static void main(String[] args) {
-        File test = new File("tests.json");
+        File test = new File(args[0]);
         Scanner test_scan;
-        File values = new File("values.json");
+        File values = new File(args[1]);
         Scanner values_scan;
         File report = new File("report.json");
 

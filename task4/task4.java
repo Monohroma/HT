@@ -16,8 +16,7 @@ public class task4 {
     }
 
     public static void main(String[] args) {
-        Scanner consoleInput = new Scanner(System.in);
-        String fileU = consoleInput.nextLine();
+        String fileU = args[0];
         File file = new File(fileU);
         Scanner fileScanner;
         try {

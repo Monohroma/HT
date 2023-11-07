@@ -10,9 +10,8 @@ public class task2 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String sfile1 = scanner.nextLine();
-        String sfile2 = scanner.nextLine();
+        String sfile1 = args[0];
+        String sfile2 = args[1];
 
         File file1 = new File(sfile1);
         File file2 = new File(sfile2);

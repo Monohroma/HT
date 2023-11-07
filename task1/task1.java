@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 public class task1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int m = scanner.nextInt();
+        int n = Integer.parseInt(args[0]);
+        int m = Integer.parseInt(args[1]);
 
         m--;
         int l = 0;
